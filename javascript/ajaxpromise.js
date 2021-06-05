@@ -40,7 +40,7 @@ makePromiseCall("DELETE", deleteURL, false)
     .catch(error => console.log("Delete Error Status: " + JSON.stringify(error)));
 
 const postURL = "http://localhost:3000/employees";
-const emplData = { "name": "Ashutosh", "salary": "70000" };
+const emplData = { "name": "Rahul", "salary": "70000" };
 
 makePromiseCall("POST", postURL, true, emplData)
     .then(responseText => {
